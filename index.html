@@ -4,75 +4,74 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/style.css" />
     <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <header>
-      <img class="logo" src="/src/img/Asset 1 1.svg" alt="logo" />
-    </header>
-    <section>
-      <div class="container mt-69">
-        <div class="row">
-          <div class="col-4">
-            <div class="box1">
-              <div class="logos justiy-content-center justiy-space-between">
-                <img src="/src/img/Vector.svg" alt="logo1 " />
-                <img src="/src/img/Vector (1).svg" alt="logo2" />
-                <img src="/src/img/Vector (2).svg" alt="logo3" />
-              </div>
-              <div class="mt-22">
-                <label class="label1" for="sale">გარიგების ტიპი</label>
-                <br />
-                <select class="select1 mt-8" name="sale" id="sale">
-                  <option class="inside" value="იყიდება">იყიდება</option>
-                  <option class="inside" value="ქირავდება">ქირავდება</option>
-                </select>
-              </div>
-              <div class="mt-20">
-                <label class="label2" for="sale2">მწარმოებელი</label>
-                <br />
-                <select class="select2 mt-8" name="sale2" id="sale2">
-                  <option class="inside2" value="ყველა მწარმოებელი">
-                    ყველა მწარმოებელი
-                  </option>
-                  <option class="inside2" value="ჟირაფი">ჟირაფი</option>
-                </select>
-              </div>
-              <div class="mt-20">
-                <label class="label3" for="sale3">კატეგორია</label>
-                <br />
-                <select class="select3 mt-8" name="sale3" id="sale3">
-                  <option class="inside3" value="ყველა კატეგორია">
-                    ყველა კატეგორია
-                  </option>
-                  <option class="inside3" value="ჟირაფი">ჟირაფი</option>
-                </select>
-              </div>
-              <div>
-                <h1>fasi</h1>
-                <label class="switch">
-                  <input type="checkbox" />
-                  <span class="slider round"></span>
-                </label>
-              </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
             </div>
-          </div>
-          <div class="col-8">
-            <div class="box2">
-              <div class="car_description">
-                <div class="row">
-                  <div class="col-3">
-                    <img src="/src/img/Bitmap.jpg" alt="carphoto" />
-                  </div>
-                  <div class="col-5">ssssssssssssssssssssss</div>
-                  <div class="col-4">asdasdasasdasd</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
       </div>
-    </section>
+    </nav>
   </body>
 </html>
